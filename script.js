@@ -1,15 +1,7 @@
-/* ==========================================================
-   EDIT THIS PART ONLY
-   - github: paste the repo link of each project
-   - file:   path to your certificate (PDF or image) inside /certificates,
-             or a full URL (Credly, Forage, Coursera, Google Drive preview...)
-   Leave file as "" and the button shows "Coming soon".
-   ========================================================== */
-
 const PROFILE = {
   github: "https://github.com/anshuldeepbajpai-dhoni",
   portfolio: "https://anshul-deep-bajpai-portfolio.vercel.app",
-}; 
+};
 
 const SKILLS = [
   {
@@ -58,42 +50,42 @@ const PROJECTS = [
     tone: "blue",
     about: "An LLM-powered digital twin with an API backend and a web front end.",
     tags: ["FastAPI", "PostgreSQL", "React", "Docker"],
-    github: PROFILE.github, // replace with the repo link
+    github: "https://github.com/anshuldeepbajpai-dhoni/NeuroTwin-AI",
   },
   {
     name: "Type-1 Diabetes Risk Prediction",
     tone: "mint",
     about: "Clustering plus boosted-tree models, tuned and explained, served as a Streamlit app.",
     tags: ["XGBoost", "CatBoost", "LightGBM", "Optuna", "SHAP", "Streamlit"],
-    github: PROFILE.github,
+    github: "https://github.com/anshuldeepbajpai-dhoni/Diabetes-Risk-Prediction-AI",
   },
   {
     name: "Bluestock Mutual Fund Analytics",
     tone: "butter",
     about: "Analysis of 46K+ NAV records and 32.8K transactions with a Power BI risk dashboard.",
     tags: ["SQL", "Power BI", "Python"],
-    github: PROFILE.github,
+    github: "https://github.com/anshuldeepbajpai-dhoni/Bluestock-mutual-fund-analytics",
   },
   {
     name: "Deep-packet-inspector",
     tone: "coral",
     about: "A multi-threaded C++17 deep packet inspection engine that parses PCAP files and reads TLS SNI.",
     tags: ["C++17", "PCAP", "TLS SNI", "Multi-threading"],
-    github: PROFILE.github,
+    github: "https://github.com/anshuldeepbajpai-dhoni/Deep-packet-inspector",
   },
   {
     name: "AI-Face-Analytics",
     tone: "blue",
     about: "Detects age, gender and emotion from faces and recommends music to match.",
     tags: ["OpenCV", "MediaPipe", "ONNX"],
-    github: PROFILE.github,
+    github: "https://github.com/anshuldeepbajpai-dhoni/AI-Face-Analytics",
   },
   {
     name: "Spam Email/SMS Classifier",
     tone: "mint",
     about: "An NLP classifier that flags spam messages, wrapped in a Flask app.",
     tags: ["Python", "Scikit-learn", "NLP", "Flask"],
-    github: PROFILE.github,
+    github: "https://github.com/anshuldeepbajpai-dhoni/spam-email-filter",
   },
 ];
 
