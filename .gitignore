@@ -1,8 +1,0 @@
-# Personal photo (kept only on my computer)
-assets/photo.*
-
-# System and editor files
-.DS_Store
-Thumbs.db
-.vscode/
-node_modules/
