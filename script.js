@@ -115,15 +115,15 @@ const INTERNSHIPS = [
 
 const CERTIFICATIONS = [
   { name: "Google AI Essentials Specialization", issuer: "Google", tone: "blue", file: "certificates/google-ai-essentials.pdf" },
-  { name: "Oracle Certified: Agentic AI", issuer: "Oracle", tone: "coral", file: "certificates/oracle-agentic-ai.pdf" },
-  { name: "Getting Started with Generative AI", issuer: "IBM", tone: "butter", file: "certificates/ibm-generative-ai.pdf" },
-  { name: "Data Science Job Simulation", issuer: "BCG X (Forage)", tone: "mint", file: "certificates/bcg-x.pdf" },
-  { name: "Software Engineering Job Simulation", issuer: "JPMorgan (Forage)", tone: "blue", file: "certificates/jpmorgan.pdf" },
-  { name: "Analytics Job Simulation", issuer: "Deloitte (Forage)", tone: "mint", file: "certificates/deloitte.pdf" },
-  { name: "Data Visualisation Job Simulation", issuer: "Tata (Forage)", tone: "butter", file: "certificates/tata.pdf" },
-  { name: "Machine Learning with Python", issuer: "freeCodeCamp, about 300 hrs", tone: "coral", file: "certificates/fcc-machine-learning.pdf" },
-  { name: "Data Analysis with Python", issuer: "freeCodeCamp, about 300 hrs", tone: "blue", file: "certificates/fcc-data-analysis.pdf" },
-  { name: "Getting Started with AI on Jetson Nano", issuer: "NVIDIA", tone: "mint", file: "certificates/nvidia-jetson-nano.pdf" },
+  { name: "Oracle Certified: Agentic AI", issuer: "Oracle", tone: "coral", file: "certificates/oracle-agentic-ai-certified-foundations-associate.pdf" },
+  { name: "Getting Started with Generative AI", issuer: "IBM", tone: "butter", file: "certificates/getting-started-with-generative-ai.pdf" },
+  { name: "Data Science Job Simulation", issuer: "BCG X (Forage)", tone: "mint", file: "certificates/data-science-job-simulation.pdf" },
+  { name: "Quantitative Research Job Simulation", issuer: "JPMorgan (Forage)", tone: "blue", file: "certificates/quantitative-research-job-simulation.pdf" },
+  { name: "Data Analytics Job Simulation", issuer: "Deloitte (Forage)", tone: "mint", file: "certificates/data-analytics-job-simulation.pdf" },
+  { name: "Gen AI Powered Data Analytics Job Simulation", issuer: "Tata (Forage)", tone: "butter", file: "certificates/gen-ai-powered-data-analytics-job-simulation.pdf" },
+  { name: "Machine Learning with Python", issuer: "freeCodeCamp, about 300 hrs", tone: "coral", file: "certificates/machine-learning-with-python.pdf" },
+  { name: "Data Analysis with Python", issuer: "freeCodeCamp, about 300 hrs", tone: "blue", file: "certificates/data-analysis-with-python.pdf" },
+  { name: "Getting Started with AI on Jetson Nano", issuer: "NVIDIA", tone: "mint", file: "certificates/getting-started-on-ai-with-jetson-nano.pdf" },
 ];
 
 /* ==========================================================
