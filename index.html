@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anshul Deep Bajpai | AI &amp; Machine Learning Engineer</title>
+  <meta name="description" content="Skill card of Anshul Deep Bajpai: skills, projects, internships and certifications." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body> 
+  <a class="skip" href="#skills">Skip to skills</a>
+
+  <main class="page">
+
+    <!-- HERO -->
+    <header class="hero clay">
+      <div class="hero__photo clay-inset" id="photoBox">
+        <img src="assets/photo.jpg" alt="Portrait of Anshul Deep Bajpai" id="photo" />
+      </div>
+
+      <div class="hero__text">
+        <h1>Anshul Deep Bajpai</h1>
+        <p class="hero__role">AI &amp; Machine Learning Engineer (Fresher)</p>
+        <p class="hero__edu">B.Tech AI &amp; ML at A.P.J. Abdul Kalam Technical University, 2023 to 2027</p>
+
+        <div class="hero__links">
+          <a class="btn btn--blue" id="linkGithub" href="https://github.com/anshuldeepbajpai-dhoni" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn--mint" id="linkPortfolio" href="https://anshul-deep-bajpai-portfolio.vercel.app" target="_blank" rel="noopener">Portfolio</a>
+          <a class="btn btn--butter" href="mailto:anshuldeepbajpai@gmail.com">Email me</a>
+          <a class="btn btn--coral" href="tel:+918810866877">Call</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- STATS -->
+    <section class="stats" aria-label="Highlights">
+      <div class="stat clay tone-blue"><strong data-count="3">0</strong><span>Internships</span></div>
+      <div class="stat clay tone-mint"><strong data-count="7">0</strong><span>Projects</span></div>
+      <div class="stat clay tone-butter"><strong data-count="8" data-suffix="+">0</strong><span>Certifications</span></div>
+      <div class="stat clay tone-coral"><strong class="stat__text">GATE 2026</strong><span>Qualified in DA</span></div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section clay" id="skills" aria-labelledby="skillsTitle">
+      <h2 id="skillsTitle">Core skills</h2>
+      <p class="section__hint">Pick a group to see what is inside it.</p>
+
+      <div class="tabs" role="tablist" aria-label="Skill groups" id="skillTabs"></div>
+      <div class="chips" id="skillChips" role="tabpanel" aria-live="polite"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" aria-labelledby="projectsTitle">
+      <h2 id="projectsTitle">Signature projects</h2>
+      <div class="grid grid--2" id="projectGrid"></div>
+    </section>
+
+    <!-- INTERNSHIPS -->
+    <section class="section" id="internships" aria-labelledby="internTitle">
+      <h2 id="internTitle">Internships</h2>
+      <div class="grid grid--3" id="internGrid"></div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certs" aria-labelledby="certTitle">
+      <h2 id="certTitle">Certifications</h2>
+      <div class="grid grid--2" id="certGrid"></div>
+    </section>
+
+    <footer class="footer clay">
+      <p>Currently strengthening: DSA in C++</p>
+      <p class="footer__small">anshuldeepbajpai@gmail.com &nbsp;|&nbsp; +91 8810866877</p>
+    </footer>
+  </main>
+
+  <!-- CERTIFICATE VIEWER -->
+  <dialog class="viewer" id="viewer" aria-labelledby="viewerTitle">
+    <div class="viewer__box clay">
+      <div class="viewer__bar">
+        <h3 id="viewerTitle">Certificate</h3>
+        <div class="viewer__actions">
+          <a class="btn btn--small btn--blue" id="viewerOpen" href="#" target="_blank" rel="noopener">Open in new tab</a>
+          <button class="btn btn--small btn--coral" id="viewerClose" type="button">Close</button>
+        </div>
+      </div>
+      <div class="viewer__body" id="viewerBody"></div>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
