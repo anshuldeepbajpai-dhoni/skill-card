@@ -38,9 +38,9 @@ const SKILLS = [
     items: ["SQL", "PostgreSQL", "SQLite", "ChromaDB", "Power BI", "Tableau", "Excel"],
   },
   {
-    group: "Generative AI tools",
-    tone: "mint",
-    items: ["LangChain", "Google Gemini API"],
+   group: "Generative AI tools",
+  tone: "mint",
+  items: ["LangChain","Google Gemini API","RAG Pipelines","ChromaDB","Hugging Face","OpenAI API","Vector Databases","Prompt Engineering",],
   },
 ];
 
