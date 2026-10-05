@@ -81,11 +81,11 @@ const PROJECTS = [
     github: "https://github.com/anshuldeepbajpai-dhoni/AI-Face-Analytics",
   },
   {
-    name: "Spam Email/SMS Classifier",
+    name: "ShieldMail AI-Spam Email/SMS Classifier",
     tone: "mint",
-    about: "An NLP classifier that flags spam messages, wrapped in a Flask app.",
-    tags: ["Python", "Scikit-learn", "NLP", "Flask"],
-    github: "https://github.com/anshuldeepbajpai-dhoni/spam-email-filter",
+    about: "AI-powered spam email/message classifier using NLP, TF-IDF and Linear SVM, deployed through a Flask web application with real-time prediction, spam risk scoring and message analytics.",
+    tags: ["Python", "Scikit-learn", "NLP", "Flask","TF-IDF","Linear SVC"],
+    github: "https://github.com/anshuldeepbajpai-dhoni/ShieldMail-AI",
   },
 ];
 
